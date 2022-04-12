@@ -8,7 +8,7 @@ Basically, an Ubuntu **Docker container** with everything you need to compile yo
 When the container starts, it's going to be on the `/valgrind` directory, which will be acessing the **actual files** present on the directory from where you executed the **valgrind** command.
 
 ## Setup and Usage
-Clone the repository to a folder name `Docker` on your user home folder and add this function to your `.zshrc` or `.bashrc`:
+Clone the repository to a folder name `Docker` on your user home folder and add this function to your shell configuration file. E.g. `.zshrc` or `.bashrc`
 ```
 function valgrind {
 	export DOCKERCONTAINERVALGRINDDIR=`pwd`
@@ -19,7 +19,7 @@ function valgrind {
 }
 ```
 
-Also, make sure you have Docker installed on your system and that it is running.
+Also, make sure you have **Docker installed on your system** and that it is running.
 
 Then, just run the command `valgrind`.
 
