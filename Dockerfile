@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-RUN apt-get update && apt-get install vim make clang gcc valgrind -y
+RUN apt-get update && apt-get install vim make clang gcc valgrind git -y
 
 WORKDIR /valgrind
 
