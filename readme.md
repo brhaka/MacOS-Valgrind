@@ -34,7 +34,7 @@ Then, just run the command `valgrind`.
 
 ---
 
-The container comes with `vim`, `clang`, `gcc`, `make` and `valgrind` already installed.
+The container comes with `git`, `vim`, `clang`, `gcc`, `make` and `valgrind` already installed.
 It runs **Ubuntu**.
 
 ---
