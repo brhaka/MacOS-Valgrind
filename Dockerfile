@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-RUN apt-get update && apt-get install vim make clang gcc valgrind git -y
+RUN apt-get update && apt-get install build-essential libreadline-dev vim clang valgrind git gdb -y
 
 WORKDIR /valgrind
 
